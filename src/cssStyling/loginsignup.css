@@ -1,0 +1,328 @@
+/* #root {
+    height: 100vh;
+    background: liner-gradient(rgb(228, 118, 0),rgb(227, 189, 0));
+    background-color: rgb(235, 159, 97,0.4); 
+     background: linear-gradient(to right, #95776a, #ffe1aa);
+} */
+/* body {
+    background-color: black;
+} */
+
+
+/* .container-login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8%;
+    background-color: white;
+    width: 27%;
+    border: 1px solid black;
+    border-radius: 4%;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7.3%;    
+}
+.text {
+    color: #f3a03b;
+    font-size: 220%;
+    font-weight: 600;
+}
+.inputs {
+    margin-top: 9.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 40px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 6px;
+    padding: 5%;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 7%;
+}
+.forgot {
+    padding-top: 5%;
+    padding-left: 14%;
+    color: gray;
+    width: 90%;
+    height: 40%;
+}
+.forgot span {
+    cursor: pointer;
+    color: #f3a03b;
+}
+.submit-container {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 22%;
+    margin-bottom: 4.8%;
+    gap: 30%;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    background-color: #f3a03b;
+    border-radius: 15px;
+    font-size: 95%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.final-submit {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 9.5%;
+    border: 1px solid black;
+    width: 41%;
+    height: 40px;
+    align-items: center;
+    margin-left: 33%;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.final-submit:hover {
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border: none;
+}
+.gray {
+    background-color: #EAEAEA;
+    color: #676767;
+}
+.gray:hover {
+    background-color: #e4e4e4;
+    border:1px solid gray;
+} */
+ /* --------------------------------------------ORIGINAL----------------------------------- */
+.container-login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 130px;
+    background-color: white;
+    padding-bottom: 0px;
+    width: 430px;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 539px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.text {
+    color: #f3a03b;
+    font-size: 35px;
+    font-weight: 600;
+}
+.inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 40px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.forgot {
+    padding-top: 10px;
+    padding-left: 49px;
+    color: gray;
+    width: 350px;
+    height: 40px;
+}
+.forgot span {
+    cursor: pointer;
+    color: #f3a03b;
+}
+.submit-container {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    gap: 70px;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    background-color: #f3a03b;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.final-submit {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 170px;
+    height: 40px;
+    align-items: center;
+    margin-left: 135px;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.final-submit:hover {
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border: none;
+}
+.gray {
+    background-color: #EAEAEA;
+    color: #676767;
+}
+.gray:hover {
+    background-color: #e4e4e4;
+    border:1px solid gray;
+}
+/*  */
+@media screen and (max-width:768px){
+    .container-login {
+        height: 459px;
+        width: 366px;
+        margin-top: 110px;
+    }
+    .header {
+        margin-top:25px ;
+    }
+    .text {
+        font-size:29px ;
+        font-weight:600 ;
+    }
+    .inputs {
+        margin-top: 34px;
+        gap:17px ;
+    }
+    .input {
+        width: 298px;
+        height: 34px;
+        border-radius: 6px;
+        padding: 17px;
+    }
+    .input input {
+        margin-left: 17px;
+    }
+    .forgot {
+        padding-top: 8px;
+        padding-left: 41px;
+        width: 298px;
+        height: 34px;
+    }
+    .submit-container {
+        margin-top: 76px;
+        margin-bottom: 17px;
+        gap: 59px;
+    }
+    .submit {
+        width: 119px;
+        height: 34px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .final-submit {
+        margin-top: 34px;
+        width: 144px;
+        height: 34px;
+        margin-left: 114px;
+        border-radius: 8px;
+    }
+
+}
+@media screen and (max-width:376px){
+    .container-login {
+        height: 360px;
+        width: 276px;
+        margin-top: 83px;
+    }
+    .header {
+        margin-top:19px ;
+    }
+    .text {
+        font-size:22px ;
+        font-weight:600 ;
+    }
+    .inputs {
+        margin-top: 25px;
+        gap:13px ;
+    }
+    .input {
+        width: 224px;
+        height: 25px;
+        border-radius: 4px;
+        padding: 13px;
+    }
+    .input input {
+        margin-left: 13px;
+        font-size: 12px;
+    }
+    .forgot {
+        padding-top: 6px;
+        padding-left: 31px;
+        width: 224px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .submit-container {
+        margin-top: 58px;
+        margin-bottom: 13px;
+        gap: 45px;
+    }
+    .submit {
+        width: 90px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .final-submit {
+        margin-top: 25px;
+        width: 109px;
+        height: 25px;
+        margin-left: 86px;
+        border-radius: 6px;
+        font-size:12px ;
+    }
+
+}

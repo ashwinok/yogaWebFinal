@@ -1,0 +1,38 @@
+.main-course-cont {
+    background: linear-gradient(45deg, #5f2903, #ff9951);
+    /* background-color: rgb(97, 155, 97); */
+
+}
+.course-cont{
+    
+    display: grid;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    gap: 0%;
+    column-gap: 1%;
+    padding-bottom: 70px;
+    padding: 1.5%;
+    padding-top: 7%;
+    grid-template-columns: repeat(4, 1fr);
+    /* background: linear-gradient(45deg, #5f2903, #ff9951); */
+    /* background-color: brown; */
+    
+}
+/* gap: 20px; padding: 20px; padding-top: 100px; grid-template-columns: repeat(4, 1fr); */
+  
+
+@media screen and (max-width:790px){
+    .course-cont{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width:570px){
+    .course-cont{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:400px){
+    .course-cont{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

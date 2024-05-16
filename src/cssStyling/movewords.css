@@ -1,0 +1,48 @@
+.moving-words {
+    flex-wrap: wrap;
+    /* gap: 20px ; */
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    top: 72%;
+    left: 0%;
+    /* letter-spacing: 0px; */
+    /* transform: translate(-10%, -40%); */
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    /* text-align: center; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* padding: 10px 20px; */
+    text-transform: capitalize;
+    text-shadow: 0px 1.5px 3px rgba(36, 34, 34, 0.75);
+} 
+.word {
+    padding: 0%;
+    height: 65px;
+    margin-right: 50px;
+}
+
+/* ----------------------------below one is for moving---------------------------- */
+
+/* .moving-words {
+ white-space: nowrap;
+ overflow: hidden;
+ display: inline-block;
+ animation: slide 5s linear infinite;
+}
+.word {
+    white-space: nowrap;
+    float: left;
+    font-size: 34px;
+    margin-right: 150px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }  
+} */

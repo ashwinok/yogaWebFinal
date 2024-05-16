@@ -1,0 +1,22 @@
+.car-heading {
+    display: flex;
+    font-size: 290%;
+    justify-content: center;
+}
+.carousel-card-container {
+    /* width: 355px; */
+    /* min-height: 500px; 
+    max-height: 550px; */
+    height: 520px;
+    /* height: 75vh; */
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
