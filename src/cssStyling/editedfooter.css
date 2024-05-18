@@ -1,33 +1,41 @@
 .efooterContainer{
     background-color: rgb(225, 164, 91);
     margin-top: 8%;
+    /* border: 3px solid rgb(255, 0, 0); */
 }
 .efooterIcons{
     display: flex;
     justify-content:center;
-    padding-top: 2%;
-    gap: 2%;   
+    padding-top: 3%;
+    padding-bottom: 2%;
+    gap: 3%;   
+    /* border: 3px solid rgb(6, 114, 214); */
 }
 .efooterNav ul{
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 4%;
     padding-top: 2%;
     font-size: 16px;
 }
+/* .efooterNav {
+    border: 3px solid rgb(255, 8, 214);
+} */
 .efooterBottom{
     display: flex;
-    padding-top: 0.6%;
     justify-content: center;
     background-color: rgb(234, 135, 14);
-    padding-bottom: 0.6%;
     margin-top: 2.7%;
     margin-bottom: 0px;
     font-size: 16px;
+    padding: 2% 0%;
+    
+    /* border: 3px solid rgb(238, 254, 8); */
+
 }
 @media screen and (max-width:769px){
     .efooterContainer {
-        margin-top: 32%;
+        margin-top: 3%;
     }
     .efooterNav ul li a {
         font-size: 14px;
@@ -38,12 +46,25 @@
 }
 @media screen and (max-width:426px){
     .efooterContainer {
-        margin-top: 142%;
+        margin-top: 14%;
+    }
+    .efooterBottom {
+        padding: 3% 0%;
+    }
+    .efooterIcons {
+        padding-top: 7.7%;
+        padding-bottom: 5%;
+    }
+    .efooterNav {
+        padding-bottom: 5%;
+    }
+    .efooterNav ul {
+        gap: 6%;
     }
 }
 @media screen and (max-width:376px){
     .efooterContainer {
-        margin-top: 855%;
+        margin-top: 16%;
     }
     .efooterNav ul li a {
         font-size: 13px;
@@ -54,7 +75,7 @@
 }
 @media screen and (max-width:321px){
     .efooterContainer {
-        margin-top: 930%;
+        margin-top: 17%;
     }
     .efooterNav ul li a {
         font-size: 12px;

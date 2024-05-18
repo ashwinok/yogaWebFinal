@@ -3,16 +3,15 @@
     height: 96%;
     background-color: antiquewhite;
     border-radius: 2%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ffffff; */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin-top: 0px;
   }
   .card {
-    
     margin-bottom: 5%;
     overflow: hidden;
+    /* border: 1px solid #ff0000; */
     box-sizing: border-box;
-    
   }
   
   .card-image {
@@ -33,6 +32,7 @@
   .card-description {
     height: 180px;
     overflow-y: auto;
+    /* border: 1px solid #000000; */
   }
   .card-price {
     margin-top: 3%;
@@ -78,6 +78,11 @@
     .card-container {
       margin-top:60px ;
       height: 85%;
+    } 
+  }
+  @media screen and (max-width: 376px) {
+    .card-description {
+      height: 148px;
     } 
   }
 
