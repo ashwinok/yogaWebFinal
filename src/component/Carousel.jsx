@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4, // Number of slides to show
